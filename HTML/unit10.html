@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+  <meta name="description" content="My nine web page" >
+  <meta name="keywords" content="HTML" >
+  <meta name="author" content="Jordi Vazquez" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+  <title>Unit10</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2 id="drinks">Drink and Hamburguer</h2>
+  <form>
+    <fieldset>
+      <legend>Drink</legend>
+      <p>
+        <label><input type="radio" name="size" value="small"> Small </label> 
+      </p>
+      <p>
+        <label><input type="radio" name="size" value="small"> Medium </label> 
+      </p>
+      <p>
+        <label><input type="radio" name="size" value="small"> Large </label> 
+      </p>
+    </fieldset>
+    <fieldset style="margin-top: 20px;">
+      <legend>Hamburguer</legend>
+      <p>
+        <label><input type="radio" name="size" value="small"> Small </label> 
+      </p>
+      <p>
+        <label><input type="radio" name="size" value="small"> Medium </label> 
+      </p>
+      <p>
+        <label><input type="radio" name="size" value="small"> Large </label> 
+      </p>
+    </fieldset>
+  </form>
+<hr>
+  <form>
+    <h2 id="payment">Payment form</h2>
+    <p>Required fields are followed by <strong></strong>.</p>
+    <section><fieldset>
+      <legend><h2>Contact information</h2></legend>
+      <fieldset>
+        <legend>Status</legend>
+        <label><input type="radio" name="status" value="teacher" >Teacher</label><br >
+        <label><input type="radio" name="status" value="student" >Student</label><br >
+        <label><input type="radio" name="status" value="other" >Other</label> <br >
+      </fieldset>
+      <fieldset style="margin-top: 40px;">
+        <legend>Title</legend>
+        <label><input type="radio" name="title" value="mr" >Mr</label><br >
+        <label><input type="radio" name="title" value="mrs" >Mrs</label><br >
+        <label><input type="radio" name="title" value="miss" >Miss</label> <br >
+      </fieldset>
+      <p><label>Name: <input type="text" name="name" required > </label></p>
+      <p><label>E-mail: <input type="email" name="email" required > </label></p>
+      <p><label>Phone Number: <input type="tel" name="phone_number" required > </label></p>
+      <p><label>Password: <input type="password" name="password" required > </label></p>
+    </fieldset></section>
+    <section><fieldset>
+      <legend><h2>Payment information</h2></legend>
+      <p><label>Card type:
+        <select name="card_type">
+          <option value="visa">Visa</option>
+          <option value="mc">Mastercard</option>
+          <option value="amex">American Express</option>
+        </select>
+      </label></p>
+      <p><label>Card number: <input type="tel" name="card_number" required > 
+      </label></p>
+      <p><label>Expiration date: <input type="date" name="expiration" required > 
+      </label></p>
+      <p><label>Paypal account: <input type="email" name="paypal_account" required >
+      </label></p>
+      <p><label>Preferred method:
+        <select name="preferred_method">
+          <option value="credit_method">Credit Card</option>
+          <option value="paypal_method">Paypal</option>
+        </select>
+      </label></p>
+    </fieldset></section>
+    <p><button type="submit">Validate the payment</button></p>
+  </form>
+<hr>
+
+<h2 id="textsearch">Text Search</h2>
+
+<div style="text-align: center;">
+  <img style="  margin-top: 300px;"  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" >
+  <form action="https://www.google.com/search" method="get"> 
+    <input type="search" name="q" size="45" placeholder="Search..." >
+    <button type="submit" style="margin-top: 20px;">Search</button>
+  </form>
+</div>
+
+<div style="text-align: center;">
+  <img style="margin-top: 300px;"  src="https://upload.wikimedia.org/wikipedia/en/thumb/8/88/DuckDuckGo_logo.svg/1200px-DuckDuckGo_logo.svg.png" alt="DuckDuckGO" height="150"  >
+  <form action="https://duckduckgo.com/" method="get"> 
+    <input type="search" name="q" size="45" placeholder="Search the web without being tracked" >
+    <button type="submit" style="margin-top: 20px;">Search</button>
+  </form>
+</div>
+
+<div style="text-align: center;">
+  <img style="margin-top: 300px;"  src="https://assets.stickpng.com/images/623af90027d4946aceae2f96.png" alt="GiveWater" height="200"  >
+  <form action="https://www.givewater.com/" method="get"> 
+    <input type="search" name="q" size="45" >
+    <button type="submit" style="margin-top: 20px;">Search</button>
+  </form>
+</div>
+
+<hr style="margin-top: 300px;">
+
+  <h2 id="textimage">Text or image</h2>
+  <form action="https://google.com/search">
+    <label>Google: <input type="text" name="q" required ></label> <br>
+    <label>Search for images <input type="checkbox" name="tbm" value="isch" ></label>
+    <button>Search</button>
+  </form>
+  <form style="margin-top: 30px;" action="https://www.givewater.com/">
+    <label>GiveWater: <input type="text" name="q" required ></label> <br>
+    <label>Search for images <input type="checkbox" name="gwater" value="isch" ></label>
+    <button>Search</button>
+  </form>
+<hr>
+<h2 id="images">Filtered Images</h2>
+  <form action="https://google.com/search" method="GET">
+    <p>Search: <input type="text" name="q" class="big" required ></p>
+    <fieldset>
+      <legend>Size</legend>
+      <select name="tbs"> 
+        <option selected disabled>Any size</option>
+        <option value="isz:l">Large</option>
+        <option value="isz:m">Medium</option>
+        <option value="isz:i">Icon</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Color</legend>        
+      <select name="tbs"> 
+        <option selected disabled>Any color</option>
+        <option value="ic:color">Color</option>
+        <option value="ic:gray">Black and white</option>
+        <option value="ic:trans">Transparent</option>
+     </select>
+    </fieldset> 
+    <fieldset>       
+      <legend>Type</legend>        
+      <select name="tbs"> 
+        <option selected disabled>Any type</option>
+        <option value="itp:clipart">Clip art</option>
+        <option value="itp:lineart">Line drawing</option>
+        <option value="itp:animated">GIF</option>
+      </select>
+    </fieldset>  
+    <fieldset>     
+      <legend>Date</legend>        
+      <select name="tbs"> 
+        <option selected disabled>Any date</option>
+        <option value="qdr:d">Past 24 hours</option>
+        <option value="qdr:w">Past week</option>
+      </select>
+    </fieldset> 
+    <fieldset>       
+      <legend>License</legend>        
+      <select name="tbs"> 
+        <option selected disabled>Any license</option>
+        <option value="il:cl">Creative commons</option>
+        <option value="il:ol">Commercial and other</option>
+      </select>
+    </fieldset>
+    <input type="hidden" name="tbm" value="isch" >
+    <button type="reset">Reset</button>
+    <button type="submit">Search</button>
+  </form>
+<hr>
+  <h2 id="filtering">Filtering Images with radio</h2>
+  <form action="https://google.com/search" method="GET">
+    <p>Search: <input type="text" name="q" class="big" required ></p>
+    <fieldset>
+      <legend>Size</legend>
+        <label><input type="radio" name="large" value="isz:l" >Large</label><br >
+        <label><input type="radio" name="medium" value="isz:m" >Medium</label><br >
+        <label><input type="radio" name="icon" value="isz:i" >Icon</label><br >
+    </fieldset>
+    <fieldset>
+      <legend>Color</legend>        
+        <label><input type="radio" name="color" value="ic:color" >Color</label><br >
+        <label><input type="radio" name="blackwhite" value="ic:gray" >Black and White</label><br >
+        <label><input type="radio" name="transparent" value="ic:trans" >Transparent</label><br >
+    </fieldset> 
+    <fieldset>       
+      <legend>Type</legend>
+      <label><input type="radio" name="clipart" value="itp:clipart" >Clip art</label><br >
+      <label><input type="radio" name="lineart" value="itp:lineart" >Line drawing</label><br >
+      <label><input type="radio" name="gif" value="itp:animated" >GIF</label><br >
+    </fieldset>  
+    <fieldset>     
+      <legend>Date</legend>     
+      <label><input type="radio" name="past24" value="qdr:d" >Past 24 hours</label><br >
+      <label><input type="radio" name="pastweek" value="qdr:w" >Past week</label><br >
+    </fieldset> 
+    <fieldset>       
+      <legend>License</legend>        
+        <label><input type="radio" name="cc" value="il:cl" >Creative commons</label><br >
+        <label><input type="radio" name="cao" value="il:ol" >Comercial and other</label><br >
+    </fieldset>
+    <input type="hidden" name="tbm" value="isch" >
+    <button type="reset">Reset</button>
+    <button type="submit">Search</button>
+  </form>
+  
+</body>
+
+  <!--
+  ## Jordi Vázquez    40 min   30 lineas    Ganador
+  ## Tiziano Borra    1 h      65 lineas
+  ## Pau Garcia       1:30 h   70 lineas
+  ## Sergio Abad      30 min   15 lineas    X
+  ## Bora             1:30 h   100 lineas
+  ## Ronald           1:30 h   122 lineas
+  ## Adrian Vico      20 min   10 lineas    X
+  ## Ricardo          1 h      90 lineas
+  ## David            1 h      30 lineas
+  ## Alvaro           1 h      50 lineas
+  ## Sergio Selles    25 min   30 lineas    X
+  ## Alejandro Mart   1h       45 lineas
+  ## Alejandro Mag    30 min   40 lineas    X
+  ## Adrian Martinez  1h       30 lineas
+  ## Saul             30 min   50 lineas    X
+
+  -->

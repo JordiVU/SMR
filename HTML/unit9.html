@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+  <meta name="description" content="My nine web page" >
+  <meta name="keywords" content="HTML" >
+  <meta name="author" content="Jordi Vazquez" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+  <title>Unit9</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2 id="nativec">Native Controls</h2>
+  <form>
+    <label>
+      Name <input type="text" name="name" >
+    </label>
+    <br>
+    <p>
+    <label>
+      Surname: <input type="text" name="surname">
+    </label>
+    </p>
+    <label>
+      <input type="checkbox" name="BBVA" value="BBVA">
+      BBVA
+    </label>
+    <p>
+    <label>
+      <input type="checkbox" name="Caixa Banc" value="banc">
+      Caixa Banc
+    </label>
+    </p>
+    <label>
+      Phone <input type="text" name="Phone" required minlength="9" maxlength="9" size="15" placeholder="e.g. 676333521">
+    </label>
+    <label>
+      DNI <input type="text" name="DNI" required minlength="9" maxlength="9" size="15" placeholder="e.g. 41731843J">
+    </label> <p>
+    <label>
+      Password: <input type="password" name="password">
+    </label>
+    <label>
+      Verify Password: <input type="password" name="vpassword">
+    </label> </p>
+    <p><label>
+      Technical support <br>
+      <textarea name="support" rows="10" cols="30" >
+I need help...
+      </textarea>
+    </label>
+    <br>
+    <label>
+      Security complaint <br>
+      <textarea name="security" rows="10" cols="30">
+I hate...
+      </textarea>
+    </label> </p>
+    <p> <label>
+      <input type="checkbox" name="security" value="security">
+      Security
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="sor" value="sor" checked>
+    SOR
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="web" value="web" checked>
+    Web Aplications
+    </label>
+      <br>
+    <label>
+      <input type="checkbox" name="networks" value="networks" checked>
+    Local networks
+    </label> </p>
+    <p> <label>
+      <input type="radio" name="securityr" value="securityr" >
+      Security
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="sorr" value="sorr" checked >
+    SOR
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="webr" value="webr" checked >
+    Web Aplications
+    </label>
+      <br>
+    <label>
+      <input type="radio" name="networksr" value="networksr" checked>
+    Local networks
+    </label> </p>
+    <p> <label>Choose ur city:
+      <select name="pets" id="city">
+        <option value="">--Please choose an option--</option>
+        <option value="alicante">Alicante</option>
+        <option value="coruña">Coruña</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="madrid">Madrid</option>
+        <option value="sevilla">Sevilla</option>
+      </select>
+    </label> </p>
+    <p> <label>
+    <input type="file" name="file" accept="image/*" multiple >
+    </label>
+    <br>
+    <label>
+    <input type="file" accept="video/*" capture="environment">
+    </label></p>
+    <p>
+    <label>
+    <button type="submit">Sumbit</button>
+    </label> </p>
+  </form>
+  <hr>
+  <h2 id="html5">HTML5 Input types</h2>
+  <form>
+  <p><label>
+    Enter a valid email: <br>
+    <input type="email" name="email" placeholder="e.g. alberto@gmail.com" required >
+  </label>
+  <br>
+  <label>
+    <input type="email" name="email" placeholder="e.g. santiago@hotmail.com" required >
+  </label> </p>
+  <p> <label>
+    Enter URL:
+    <input type="url" name="url" placeholder="e.g. https://..." required >
+  </label> </p>
+  <p> <label>
+    Enter phone number:
+    <input type="tel" name="tel" placeholder="e.g. 673 451 542" >
+  </label> </p>
+  <p> <label>
+    Ur pc number:
+    <input type="number" name="pc" min="1" max="10" step="20" value="1" >
+  </label> </p>
+  <label>
+    Ur age: <br>
+    <input type="range" name="range"
+           min="1900" max="2023" step="1" value="2023"
+           oninput="number.value = this.value" >
+    </label> <br>
+   <p><label>
+    <input type="number" name="number"
+           min="1900" max="2023" step="1" value="2023"
+           oninput="range.value = this.value" >
+  </label> </p>
+  <p><label>
+    Local date time: <input type="date" name="date" >
+  </label></p>
+  <p><label>
+    Month: <input type="month" name="month">
+  </label></p>
+  <p><label>
+    Time: <input type="time" name="time">
+  </label></p>
+  <p><label>
+    Week: <input type="week" name="week">
+  </label></p>
+  <p> <label>
+      Select color: <input type="color" name="color" >
+  </label> </p>
+  <p> <label>
+    Search:
+    <input type="search" name="search" placeholder="Search" required >
+  </label> </p>
+  <label>
+    <button type="submit"> Sumbit </button>
+  </label>
+  </form>
+  <hr>
+  <h2 id="formsphp">Contact Form</h2>
+  <form action="https://php.jordivazquez.repl.co/contact.php" method="GET">
+    <label>
+      Name:
+      <input type="text" name="name" required >
+    </label> <br>
+    <label>
+      E-Mail:
+      <input type="text" name="email" required >
+    </label> <br>
+    <label>
+      Message: <br>
+      <textarea name="message" rows="10" cols="40"> </textarea>
+    </label>
+    <label> <br>
+    <button type="submit"> Submit </button>
+    </label>
+  </form>
+
+  <h2>Greeting Form</h2>
+  <form action="https://php.jordivazquez.repl.co/greetings.php" method="GET">
+    <p>
+      <label>
+        What greeting do you want to say?: <input name="say" value="Hello" required >
+      </label>
+    </p>
+    <p>
+      <label>
+        Who do you want to say it to?: <textarea name="to" required>Dad</textarea>
+      </label>
+    </p>
+    <p>
+      <button>Send my greetings</button>
+    </p>
+  </form>
+
+  <h2>Login form</h2>
+  <form action="https://php.jordivazquez.repl.co/password.php" method="POST">
+    <label>
+      User:
+      <input type="text" name="user" placeholder="Username" required >
+    </label> <br>
+    <label>
+      Password:
+      <input type="password" name="password" placeholder="Password" required minlength="4" >
+    </label> <br>
+      <button type="submit"> Login </button>
+  </form>
+  
+</body>

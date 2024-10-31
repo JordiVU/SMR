@@ -1,0 +1,78 @@
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+a:link {
+  color: #d95959;
+}
+a:visited {
+  color: #700000;
+}
+a:focus {
+  background: #ff0000;
+}
+a:hover {   
+  background: #8eafb4;
+  text-decoration: underline #eaa4a4 wavy;
+}
+a:active {
+  background: red;
+}
+
+.white {
+  background: url('https://w7.pngwing.com/pngs/495/109/png-transparent-clone-trooper-star-wars-the-clone-wars-stormtrooper-stormtrooper-white-monochrome-head.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+
+.blue {
+  background: url('https://e7.pngegg.com/pngimages/43/206/png-clipart-clone-trooper-star-wars-the-clone-wars-stormtrooper-anakin-skywalker-others-angle-logo.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+.orange {
+  background: url('https://w7.pngwing.com/pngs/911/70/png-transparent-clone-trooper-stormtrooper-clone-wars-star-wars-battlefront-ii-stormtrooper-angle-logo-anakin-skywalker.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+
+.green {
+  background: url('https://w7.pngwing.com/pngs/51/918/png-transparent-clone-trooper-stormtrooper-star-wars-the-clone-wars-stormtrooper-angle-logo-fictional-character.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+
+.purple {
+  background: url('https://e7.pngegg.com/pngimages/673/139/png-clipart-clone-trooper-star-wars-the-clone-wars-stormtrooper-star-wars-battlefront-ii-black-watch-regiment-purple-logo.png') no-repeat 100% 0;
+  background-size: 2rem;
+  padding-right: 2.5rem;
+}
+
+
+.bar {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  text-align: center;
+  background: #ffff00;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+ul.bar li {
+  display: inline;
+}
+
+ul.bar a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+}
+
+ul.bar a:hover {     
+  background: grey;
+}
+
+ul.bar a:active {
+  color: white;
+  background: #595959;
+}

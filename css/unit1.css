@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: #8a0000;
+}
+
+p {
+  color: #a30000;
+}
+
+
+a:link {
+  color: #576aff;
+}
+a:visited {
+  color: #8800a3;
+}
+
+.square {
+  list-style-type: square;
+  color: #104601;
+}
+
+.circle {
+  list-style-type: circle;
+  color: #009eb3;
+}
+
+.none {
+  list-style-type: none;
+  color: #27b300;
+}
+
+.disc {
+  list-style-type: disc;
+  color: #ff0000;
+}
+
+.roman {
+  list-style-type: upper-roman;
+  color: #0029a3;
+}
+
+.latin {
+  list-style-type: upper-latin;
+  color: #f462fe;
+}
+
+.greek {
+  list-style-type: lower-greek;
+  color: #104601;
+}
+
+.alpha {
+  list-style-type: lower-alpha;
+  color: #0029a3;
+}

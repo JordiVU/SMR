@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" >
+  <meta name="description" content="My six web page" >
+  <meta name="keywords" content="HTML,CSS,JS" >
+  <meta name="author" content="Jordi Vazquez Uribe" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+  <title>Unit6</title>
+
+  <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+      </style>
+</head>
+<body>
+  <h2 id="simple">Simple Tables</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td>One.</td>
+        <td>Two</td>
+        <td>Three</td>
+        <td>Four</td>
+      </tr>
+      <tr>
+        <td>Five</td>
+        <td>Six</td>
+        <td>Seven</td>
+        <td>Eight</td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <tbody>
+      <tr>
+        <td>One.</td>
+        <td>Two</td>
+        <td>Three</td>
+      </tr>
+      <tr>
+        <td>Four</td>
+        <td>Five</td>
+        <td>Six</td>
+      </tr>
+      <tr>
+        <td>Seven</td>
+        <td>Egiht</td>
+        <td>Nine</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h2 id=pictures>Test Pictures</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td><img src="https://picsum.photos/id/40/300/300" alt="*"></td>
+          <td><img src="https://picsum.photos/id/41/300/300" alt="*"></td>
+        </tr>
+        <tr>
+          <td><img src="https://picsum.photos/id/42/300/300" alt="*"></td>
+          <td><img src="https://picsum.photos/id/43/300/300" alt="*"></td>
+        </tr>
+        <tr>
+          <td><img src="https://picsum.photos/id/44/300/300" alt="*"></td>
+          <td><img src="https://picsum.photos/id/45/300/300" alt="*"></td>
+        </tr>
+      </tbody>
+    </table>
+  <hr>
+  <h2 id="dog">Dog Walker</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Dog Name</th>
+          <th>Owner</th>
+          <th>Phone NUmber</th>
+          <th>Breed</th>
+          <th>Age</th>
+          <th>Eating Habits</th>
+          <th>Picture</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Chulo</th>
+          <td>Alberto Coutado</td>
+          <td>673441334</td>
+          <td>Labrador</td>
+          <td>2</td>
+          <td>All food</td>
+          <td><img src="https://cdn.pixabay.com/photo/2017/11/13/08/33/dog-2944964_960_720.jpg" alt="*" height="150" width="150"></td>
+        </tr>
+        <tr>
+          <th>Scar</th>
+          <td>Ana Nieto</td>
+          <td>634446638</td>
+          <td>Doberman</td>
+          <td>9</td>
+          <td>Will eat till he explodes</td>
+          <td><img src="https://cdn.pixabay.com/photo/2018/02/02/11/01/dog-3125133_960_720.jpg" alt="*" height="150" width="150"></td>
+        </tr>
+        <tr>
+          <th>Obi Wan Kenobi</th>
+          <td>Qui-Gon Jin</td>
+          <td>698490383</td>
+          <td>Labrador</td>
+          <td>14</td>
+          <td>Eats everyone’s leftovers</td>
+          <td><img src="https://i.pinimg.com/736x/c1/c5/9c/c1c59c9c130840e8e5be3fa19a3401dd.jpg" alt="*" height="150" width="150"></td>
+        </tr>
+        <tr>
+          <th>Sergio</th>
+          <td>Jordi Vázquez</td>
+          <td>605824566</td>
+          <td>Caniche</td>
+          <td>6</td>
+          <td>Nibbles at food</td>
+          <td><img src="https://cdn.pixabay.com/photo/2016/04/15/09/10/dog-1330543_960_720.jpg" alt="*" height="150" width="150"></td>
+        </tr>
+        <tr>
+          <th>Tiziano</th>
+          <td>Elon Musk</td>
+          <td>714238444</td>
+          <td>Pomeranian</td>
+          <td>8</td>
+          <td>Hearty eater</td>
+          <td><img src="https://cdn.pixabay.com/photo/2016/07/26/02/01/pomeranian-1541798_960_720.jpg" alt="*" height="150" width="150"></td>
+        </tr>
+      </tbody>
+    </table>
+  <hr>
+    <h2 id=headers>Table, Caption and Headers</h2>
+      <table>
+        <caption>First name and last name</caption>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jordi</td>
+            <td>Vázquez</td>
+          </tr>
+          <tr>
+            <td>Sergio</td>
+            <td>Abad</td>
+          </tr>
+          <tr>
+            <td>Tiziano</td>
+            <td>Borra</td>
+          </tr>
+          <tr>
+            <td>Pau</td>
+            <td>Agost</td>
+          </tr>
+        </tbody>
+      </table>
+  <hr>
+
+  <h2 id="countries">Star Wars Countries</h2>
+    <table>
+      <caption>Places where Star Wars was filmed</caption>
+      <thead>
+        <tr>
+          <th>Countries</th>
+          <th>City</th>
+          <th>Population</th>
+          <th>Language</th>
+          <th>Images</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Italy</td>
+          <td>Nápoles</td>
+          <td>3 millon</td>
+          <td>Italian</td>
+          <td><img src="https://s1.eestatic.com/2022/05/04/actualidad/669943306_224041017_864x486.jpg" alt="*" width="350" height="150"></td>
+        </tr>
+        <tr>
+          <td>Spain</td>
+          <td>Sevilla</td>
+          <td>688 thousand</td>
+          <td>Spanish</td>
+          <td><img src="https://s1.eestatic.com/2022/05/04/actualidad/669943308_224041075_864x486.jpg" alt="*" width="350" height="150"></td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>Matmata</td>
+          <td>2.000</td>
+          <td>English</td>
+          <td><img src="https://s1.eestatic.com/2022/05/04/actualidad/669943323_224041537_864x486.jpg" alt="*" width="350" height="150"></td>
+        </tr>
+        <tr>
+          <td>Norway</td>
+          <td>Finse</td>
+          <td>1.094 </td>
+          <td>Norwegian</td>
+          <td><img src="https://s1.eestatic.com/2022/05/04/actualidad/669943320_224041440_864x486.jpg" alt="*" width="350" height="150"></td>
+        </tr>
+      </tbody>
+    </table>
+  <hr>
+  
+  <h2 id="timetable">Timetable</h2>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>07:55h</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+          <td></td>
+          <td>Network Services <br>
+          Colom, Jose Francisco (I206)</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+          <td>Network Services <br>
+          Colom, Jose Francisco (I206)</td>
+        </tr>
+      
+        <tr>
+          <td>08:50h</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+          <td>Network Services <br>
+          Colom, Jose Francisco (I206)</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+          <td>Network Services <br>
+          Colom, Jose Francisco (I206)</td>
+        </tr>
+        <tr>
+          <td>09:45h</td>
+          <td> Informatic security <br>
+          Lopez, Lorena (I206)</td>
+          <td> Informatic security <br>
+          Lopez, Lorena (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+        </tr>
+        <tr>
+          <th>10:40h</th>
+          <td colspan="5"><strong> B R E A K </strong></td>
+        </tr>
+        <tr>
+          <td>11:00</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+        </tr>
+        <tr>
+          <td>11:55h</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td> Informatic security <br>
+          Lopez, Lorena (I206)</td>
+          <td> Informatic security <br>
+          Lopez, Lorena (I206)</td>
+          <td>Web applications <br>
+          Ruiz, Fernando (I206)</td>
+        </tr>
+        <tr>
+          <th>12:50h</th>
+          <td colspan="2"> <strong> B R E A K </strong> </td>
+          <td>Business and Entrepreneurship <br>
+          Castello, Maria De La Soledad (I206) </td>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td>13:10h</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td>Business and Entrepreneurship <br>
+          Castello, Maria De La Soledad (I206) </td>
+          <td></td>
+          <td> Informatic security <br>
+          Lopez, Lorena (I206)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14:05</td>
+          <td> Network Operating Systems <br>
+          Taboada, Jana (I206)</td>
+          <td>Business and Entrepreneurship <br>
+          Castello, Maria De La Soledad (I206) </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  <hr>
+  <h2 id="club">Club members</h2>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">ID</th>
+          <th colspan="2">Membership Dates</th>
+          <th rowspan="2">Balance</th>
+          <th rowspan="2">Mail</th>
+          <th rowspan="2">Picture</th>
+        </tr>
+        <tr>
+          <th>Joined</th>
+          <th>Canceled</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Margaret Nguyen</th>
+          <td>427311</td>
+          <td>June 3, 2010</td>
+          <td>n/a</td>
+          <td>0.00</td>
+          <td>margaretN@hotmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/vista-frontal-mujer-sonriente-fuegos-artificiales_52683-98180.jpg" 
+                alt="*" width="150" ></td>
+        </tr>
+        <tr>
+          <th>Edvard Galinski</th>
+          <td>533175</td>
+          <td>January 13, 2011</td>
+          <td>April 8, 2017</td>
+          <td>37.00</td>
+          <td>edvgalinsio@hotmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/persona-disfrutando-calido-nostalgico-atardecer_52683-100695.jpg"
+                alt="*" width="150"></td>
+        </tr>
+        <tr>
+          <th>Hoshi Nakamura</th>
+          <td>601942</td>
+          <td>July 23, 2012</td>
+          <td>n/a</td>
+          <td>15.00</td>
+          <td>hoshisuprem@gmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/mujer-mediana-edad-sonriendo-pasando-buen-rato_23-2149218561.jpg"
+                alt="*" width="150"></td>
+        </tr>
+        <tr>
+          <th>Liri Murphy</th>
+          <td>749894</td>
+          <td>September 10, 2013</td>
+          <td>n/a</td>
+          <td>23.00</td>
+          <td>lirimurphy@hotmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/vista-frontal-chica-triste-siendo-acosada_23-2149748403.jpg"
+                alt="*" width="150" ></td>
+        </tr>
+        <tr>
+          <th>Amancio Ortega</th>
+          <td>898283</td>
+          <td>Frebruary 25, 2012</td>
+          <td>June 4, 2013</td>
+          <td>44.00</td>
+          <td>amanciOort@gmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/hombre-deprimido-llorando-vista-lateral_23-2149699062.jpg"
+                alt="*" width="150"></td>
+        </tr>
+        <tr>
+          <th>Manuel Onsurbe</th>
+          <td>832134</td>
+          <td>April 10, 2011</td>
+          <td>November 9, 2023</td>
+          <td>12.00</td>
+          <td>onsurbes@hotmail.com</td>
+          <td><img src="https://img.freepik.com/fotos-premium/retrato-persona-negra-africana_220873-36228.jpg"
+                alt="*" width="150"></td>
+        </tr>
+        <tr>
+          <th>Natalia Prioglio</th>
+          <td>512344</td>
+          <td>July 22, 2015</td>
+          <td>n/e</td>
+          <td>19.00</td>
+          <td>nataliaproglio@hotmail.com</td>
+          <td><img src="https://img.freepik.com/foto-gratis/cerrar-sobre-mujer-joven_23-2149133073.jpg" 
+                alt="*" width="150"></td>
+        </tr>
+      </tbody>
+    </table>
+  <hr>
+  <h2 id="spend">How to Spend</h2>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">ID</th>
+        <th colspan="2">Membership Dates</th>
+        <th rowspan="2">Balance</th>
+        <th rowspan="2">Mail</th>
+        <th rowspan="2">You would like</th>
+        <th rowspan="2">Picture</th>
+        <th rowspan="2">Locatión</th>
+      </tr>
+      <tr>
+        <th>Joined</th>
+        <th>Canceled</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Margaret Nguyen</th>
+        <td>427311</td>
+        <td>June 3, 2010</td>
+        <td>n/a</td>
+        <td>0.00</td>
+        <td>margaretN@hotmail.com</td>
+        <td>Travel: Explore new places and cultures.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/vista-frontal-mujer-sonriente-fuegos-artificiales_52683-98180.jpg" 
+              alt="*" width="150" ></td>
+        <td><img src="https://picsum.photos/id/10/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Edvard Galinski</th>
+        <td>533175</td>
+        <td>January 13, 2011</td>
+        <td>April 8, 2017</td>
+        <td>37.00</td>
+        <td>edvgalinsio@hotmail.com</td>
+        <td>Cooking: Experiment with recipes and create delicious dishes.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/persona-disfrutando-calido-nostalgico-atardecer_52683-100695.jpg"
+              alt="*" width="150"></td>
+        <td><img src="https://picsum.photos/id/11/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Hoshi Nakamura</th>
+        <td>601942</td>
+        <td>July 23, 2012</td>
+        <td>n/a</td>
+        <td>15.00</td>
+        <td>hoshisuprem@gmail.com</td>
+        <td>Photography: Capture moments and landscapes.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/mujer-mediana-edad-sonriendo-pasando-buen-rato_23-2149218561.jpg"
+              alt="*" width="150"></td>
+        <td><img src="https://picsum.photos/id/12/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Liri Murphy</th>
+        <td>749894</td>
+        <td>September 10, 2013</td>
+        <td>n/a</td>
+        <td>23.00</td>
+        <td>lirimurphy@hotmail.com</td>
+        <td>Art: Paint, draw, or engage in crafting.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/vista-frontal-chica-triste-siendo-acosada_23-2149748403.jpg"
+              alt="*" width="150" ></td>
+        <td><img src="https://picsum.photos/id/13/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Amancio Ortega</th>
+        <td>898283</td>
+        <td>Frebruary 25, 2012</td>
+        <td>June 4, 2013</td>
+        <td>44.00</td>
+        <td>amanciOort@gmail.com</td>
+        <td>Science: Explore scientific or technological topics.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/hombre-deprimido-llorando-vista-lateral_23-2149699062.jpg"
+              alt="*" width="150"></td>
+        <td><img src="https://picsum.photos/id/14/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Manuel Onsurbe</th>
+        <td>832134</td>
+        <td>April 10, 2011</td>
+        <td>November 9, 2023</td>
+        <td>12.00</td>
+        <td>onsurbes@hotmail.com</td>
+        <td>Writing: Create stories, blogs, or poetry.</td>
+        <td><img src="https://img.freepik.com/fotos-premium/retrato-persona-negra-africana_220873-36228.jpg"
+              alt="*" width="150"></td>
+        <td><img src="https://picsum.photos/id/15/150/100"
+          alt="*" ></td>
+      </tr>
+      <tr>
+        <th>Natalia Prioglio</th>
+        <td>512344</td>
+        <td>July 22, 2015</td>
+        <td>n/e</td>
+        <td>19.00</td>
+        <td>nataliaproglio@hotmail.com</td>
+        <td>Fashion: Follow trends or design your own clothing.</td>
+        <td><img src="https://img.freepik.com/foto-gratis/cerrar-sobre-mujer-joven_23-2149133073.jpg" 
+              alt="*" width="150"></td>
+        <td><img src="https://picsum.photos/id/16/150/100"
+          alt="*" ></td>
+      </tr>
+    </tbody>
+  </table>
+</body>

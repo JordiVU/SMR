@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: #8a0000;
+}
+
+p {
+  color: #a30000;
+}
+
+li {
+  color: #a7b300;
+}
+
+a:link {
+  color: #576aff;
+}
+a:visited {
+  color: #8800a3;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+.square {
+  list-style-type: square;
+  color: #104601;
+}
+
+.circle {
+  list-style-type: circle;
+  color: #800000;
+}
+
+.roman {
+  list-style-type: upper-roman;
+  color: #0029a3;
+}
+
+.latin {
+  list-style-type: upper-latin;
+  color: #d5ff3d;
+}

@@ -1,0 +1,318 @@
+
+.serif {
+  font-family: serif;
+  color: red;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+  color: green;
+}
+
+.monospace {
+  font-family: monospace;
+  color: blue;
+}
+
+.cursive {
+  font-family: cursive;
+  color: #757500;
+}
+
+.fantasy {
+  font-family: fantasy;
+  color: brown;
+}
+
+.trebuchet {
+  font-family: "Trabuchet MS";
+  color: red;
+}
+
+.arial {
+  font-family: arial;
+  color: green;
+}
+
+.courier {
+  font-family: "Courier New";
+  color: blue;
+}
+
+.georgia {
+  font-family: georgia;
+  color: #949400;
+}
+
+.verdana {
+  font-family: verdana;
+  color: brown;
+}
+
+.trebuchet_v2 {
+  font-family: palatino, "Trabuchet MS";
+  color: red;
+}
+
+.arial_v2 {
+  font-family: "Book Antiqua", arial;
+  color: green;
+}
+
+.courier_v2 {
+  font-family: "Courier New", "Segeo UI";
+  color: blue;
+}
+
+.tahoma {
+  font-family: tahoma, georgia;
+  color: #949400;
+}
+
+.papyrus {
+  font-family: papyrus, verdana;
+  color: brown;
+}
+
+.pacifico  {
+  font-family: Pacifico, verdana;
+  color: #e258fe;
+}
+
+.ephesis  {
+  font-family: Ephesis, verdana;
+  color: #38d7ff;
+}
+
+.kaushan  {
+  font-family: "Kaushan Script", verdana;
+  color: brown;
+}
+
+.one  {
+  font-family: Ephesis, verdana;
+  font-size: 12px;
+  color: #000000;
+}
+
+.two  {
+  font-family: Ephesis, verdana;
+  font-size: 20px;
+  color: #000000;
+}
+
+.three  {
+  font-family: Ephesis, verdana;
+  font-size: 30px;
+  color: #000000;
+}
+
+.four  {
+  font-family: Ephesis, verdana;
+  font-size: 40px;
+  color: #000000;
+}
+
+.five  {
+  font-family: Ephesis, verdana;
+  font-size: 50px;
+  color: #000000;
+}
+
+.one_v2  {
+  font-family: Ephesis, verdana;
+  font-size: 12px;
+  color: #000000;
+}
+
+.two_v2  {
+  font-family: Ephesis, verdana;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.three_v2  {
+  font-family: Ephesis, verdana;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.four_v2  {
+  font-family: Ephesis, verdana;
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+.five_v2  {
+  font-family: Ephesis, verdana;
+  font-size: 3rem;
+  color: #000000;
+}
+
+.normal  {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.italic  {
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.oblique  {
+  font-style: oblique;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
+
+.bolder  {
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.marge  {
+  font-style: normal;
+  font-weight: 300;
+  text-transform: full-width;
+}
+
+.underline  {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+.overline  {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: overline;
+}
+
+.line-through  {
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: line-through;
+}
+
+.shadow1  {
+  font-family: Ephesis;
+  font-size: 40px;
+  text-shadow: 4px 4px 4px #00ff62;
+}
+
+.shadow2  {
+  font-family: "Kaushan Script";
+  font-size: 30px;
+  text-shadow: 1px 1px 1px red;
+}
+
+.shadow3  {
+  font-family: Pacifico;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ffea00;
+}
+
+.shadow4  {
+  font-family: papyrus;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ff38c0;
+}
+
+.shadow5  {
+  font-family: tahoma;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ff6b6b;
+}
+
+.shadowm1  {
+  font-family: Ephesis;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #1fff75,
+   2px 2px 1px #3c00ff;
+}
+
+.shadowm2  {
+  font-family: "Kaushan Script";
+  font-size: 30px;
+  text-shadow: 1px 1px 1px white,
+   2px 2px 1px #0e0052;
+}
+
+.shadowm3  {
+  font-family: Pacifico;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ffffff,
+   2px 2px 1px #d4ff00;
+}
+
+.shadowm4  {
+  font-family: papyrus;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #999999,
+   2px 2px 1px #050505;
+}
+
+.shadowm5  {
+  font-family: tahoma;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ff6b6b,
+   2px 2px 1px #660000;
+}
+
+.right  {
+  text-align: right;
+}
+
+.left  {
+  text-align: left;
+}
+
+.center  {
+  text-align: center;
+}
+
+.justify  {
+  text-align: justify;
+}
+
+.height1  {
+  line-height: 0.7;
+}
+
+.height2  {
+  line-height: 1.2;
+}
+
+.height3  {
+  line-height: 1.8;
+}
+
+.spacing1  {
+  word-spacing: 20px;
+}
+
+.spacing2  {
+  letter-spacing: 12px;
+}
+
+.hello1  {
+  font: italic normal bold normal 3em/0.8 Ephesis, Arial, sans-serif;
+}
+
+.hello2  {
+  font: oblique normal lighter normal 2em/1 Pacifico, Arial, sans-serif;
+}
+
+.hello3  {
+  font: normal normal bolder normal 2em/2 "Trabuchet MS", Arial, sans-serif;
+}
+
+.hello4  {
+  font: italic normal 300 normal 1em/0.5 "Courier New", Arial, sans-serif;
+}
